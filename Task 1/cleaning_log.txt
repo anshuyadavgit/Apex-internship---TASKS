@@ -1,0 +1,19 @@
+Loaded raw dataset: 1000 rows, 12 columns
+Missing values before cleaning:
+{'Age': 20, 'City': 13}
+Fully duplicated rows before cleaning: 0
+Duplicate Order_IDs before cleaning: 8
+Order_Date converted to datetime. Unparseable dates: 0
+Trimmed whitespace and normalized blank markers on text columns
+Imputed 20 missing Age values using median age per City
+Filled 13 missing City values with 'Unknown'
+Resolved 9 colliding Order_IDs by appending a disambiguating suffix (e.g. ORD100050-1)
+Flagged 105 rows where Customer_ID maps to more than one Customer_Name
+Age: 0 statistical outliers flagged (1.5x IQR rule)
+Quantity: 0 statistical outliers flagged (1.5x IQR rule)
+Unit_Price: 0 statistical outliers flagged (1.5x IQR rule)
+Total_Sales: 19 statistical outliers flagged (1.5x IQR rule)
+Rows where Total_Sales != Quantity x Unit_Price: 0
+Engineered: Order_Year, Order_Month, Order_Month_Name, Order_Quarter, Order_Weekday, Is_Weekend, Age_Group, Price_Tier, Revenue_Per_Unit
+Missing values remaining in core business columns after cleaning: 0
+Final analysis-ready dataset: 1000 rows, 28 columns
