@@ -1,0 +1,7 @@
+Column,Unique_Values,Most_Common,Most_Common_Share
+Gender,2,Male,51.1%
+City,9,Patna,13.5%
+Product,6,Mobile,18.4%
+Category,5,Electronics,35.4%
+Age_Group,5,26-35,22.3%
+Price_Tier,4,Premium (20K-40K),42.2%
